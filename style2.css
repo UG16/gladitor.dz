@@ -1,0 +1,284 @@
+
+body {
+    background-image: url('gray-vector-geometric-circle-abstract-on-white-background-dotted-texture-pattern-in-halftone-style.jpg');
+    text-decoration: none;
+    overflow-x: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.h{
+    text-align: none;
+    user-select: none;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    
+}
+.h{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    z-index: +9;
+    left: 43%;
+    bottom: 13.5%;
+    font-family: "Arial Black", Gadget, sans-serif;
+    z-index: +10;
+}
+.menu2 {
+    position: absolute;
+    bottom: 150px;
+    left: -42.9%;
+    width: 70%;
+    height: 50px;
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    border-radius: 80px;
+}
+
+.menu {
+    position: absolute;
+    bottom: 150px;
+    left: 17%;
+    width: 70%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 1);
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    border-radius: 80px;
+    z-index: 9;
+}
+.home {
+    color: white;
+    text-decoration: none;
+    font-size: 33px;
+    margin-right: 20px;
+    opacity: 0.9;
+    z-index: 9;
+}
+.meet {
+    width: 550px;
+    height: 600px;
+    position: absolute;
+    top: 10%;
+    left:35.3%;
+    z-index: -1;
+    background-color: white;
+    border: black solid 5px;
+    border-radius: 10px;
+      border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: +9;
+}
+
+.meet h1{
+    position: relative;
+    bottom: -50px;
+}
+
+.transparent-circle {
+  width: 580px; /* Set desired width */
+  height: 640px; /* Set desired height (must match width for a perfect circle) */
+   /* Makes the element circular */
+  background-color: rgba(255, 0, 0, 0); /* Red color with 50% transparency */
+  border: rgba(0, 0, 0, 1) solid 5px; /* Optional: border for visibility */
+  position: absolute;
+    top: 8%; /* Center vertically */
+    left: 34.5%; /* Center horizontally */
+  border-top-left-radius: -50%;
+  border-top-left-radius: -50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  /* Or use 'opacity' for overall element transparency: */
+  /* opacity: 0.5; */
+}
+
+.password{
+    position: relative;
+    height: 40px;
+    width: 350px;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid black;
+    border-radius: 10px;    
+    bottom: -15%;
+}
+
+.bt{
+    position: absolute;
+    bottom: 200px;
+    left: 15%;
+    width: 70%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 1);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    border-radius: 80px;
+    z-index: 9;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+.bt:active{
+    color: black;
+    background-color: white;
+}
+
+
+@media screen and (max-width: 480px) {
+    
+    .h{
+        text-align: none;
+        user-select: none;
+        color: white;
+        list-style: none;
+        text-decoration: none;
+        
+    }
+    .h{
+        position: absolute;
+        color: rgb(255, 255, 255);
+        z-index: +9;
+        left: 23%;
+        bottom: 13%;
+        font-family: "Arial Black", Gadget, sans-serif;
+        z-index: +10;
+        font-size: 24.6px;
+    }
+    .menu2 {
+        position: absolute;
+        bottom: 20px;
+        left: -32%;
+        width: 70%;
+        height: 50px;
+        display: flex;
+        justify-content:right;
+        align-items: center;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        border-radius: 80px;
+    }
+    .menu {
+        position: absolute;
+        bottom: 20px;
+        left: 5%;
+        width: 90%;
+        height: 50px;
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        justify-content:right;
+        align-items: center;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        border-radius: 80px;
+        z-index: 9;
+    }
+    .home {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-size: 24.6px;
+        margin-right: 20px;
+        opacity: 0.9;
+        z-index: 9;
+    }
+    img {
+        width: 90%;
+        height: auto;
+        position: absolute;
+        top: 18%;
+        left: 4%;
+        z-index: -1;
+    }
+    .transparent-circle {
+        width: 90%; /* Set desired width */
+        height: 60%; /* Set desired height (must match width for a perfect circle) */
+        background-color: rgba(255, 0, 0, 0); /* Red color with 50% transparency */
+        border: rgba(0, 0, 0, 1) solid 5px; /* Optional: border for visibility */
+        position: absolute;
+        top: 15%; /* Center vertically */
+        left:3%; /* Center horizontally */
+        border-top-left-radius: -50%;
+        border-top-left-radius: -50%;
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+    }
+    .meet {
+        width: 90%;
+        height: 60%;
+        position: absolute;
+        top: 15%;
+        left: 03%;
+        z-index: -1;
+        background-color: white;
+        border: black solid 5px;
+        border-radius: 10px;
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        z-index: +9;
+    }
+    .meet h1 {
+        position: relative;
+        bottom: -50px;
+    }
+    .meet img {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+    .password {
+        position: relative;
+        height: 40px;
+        width: 280px;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border: 2px solid black;
+        border-radius: 10px;    
+        bottom: -70px;
+    }
+    .bt {
+        position: absolute;
+        bottom: 100px;
+        left: 15%;
+        width: 70%;
+        height: 50px;
+        background-color: rgba(0, 0, 0, 1);
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        color: white;
+        text-decoration: none;
+        border-radius: 80px;
+        z-index: 9;
+        text-align: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 20px;
+    }
+    .bt:active {
+        color: black;
+        background-color: white;
+    }   
+    .bt:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+        color: white;
+    }
+}

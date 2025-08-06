@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style2.css">
+    <title>𝒖𝒍𝒕𝒓𝒂𝒔 𝒈𝒍𝒂𝒅𝒊𝒕𝒐𝒓𝒔</title>
+</head>
+<body>
+    <audio id="background-music" src="The Godfather Theme Song.mp3" loop>
+        <source src="The Godfather Theme Song.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+    <h1 class="h">𝒖𝒍𝒕𝒓𝒂𝒔 𝒈𝒍𝒂𝒅𝒊𝒕𝒐𝒓𝒔</h1>
+    <div class="main">
+        <div class="meet">
+            <h1>𝒖𝒍𝒕𝒓𝒂𝒔 𝒈𝒍𝒂𝒅𝒊𝒕𝒐𝒓𝒔</h1>
+            <input type="password" class="password" placeholder="Enter Password">
+            <button class="bt">sumbit</button>
+        </div>
+        <div class="transparent-circle"></div>
+    </div>
+    <div class="menu">
+        <a href="https://www.facebook.com/Ultras.GLadiators.16/" target="_blank" class="home"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#" class="home" target="_blank"><i class="fa-solid fa-circle-exclamation"></i></a>
+    </div>
+    <div class="menu2">
+        <a href="test.html" class="home"><i class="fa-solid fa-house"></i></a>
+        <a href="https://www.youtube.com/@GlaDiaToRsMedia16" class="home" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+    </div>
+    <div class="div">
+        <div class="mute"></div>
+    </div>
+</body>
+<script>
+    const audio = document.getElementById('background-music').play();
+    setTimeout(() => {
+        audio
+    }, 1000); // Start playing the audio after 1 second
+
+    const passwordInput = document.querySelector('.password');
+    const submitButton = document.querySelector('.bt');
+    submitButton.addEventListener('click', () => {
+        const password = passwordInput.value;
+        if (password === 'ultras') {
+            submitButton.style.display = 'none';
+            passwordInput.style.display = 'none';
+            document.querySelector('.meet').innerHTML ="<h1>ملعب 500 مسكن</h1><br><br><p>على الساعه السادسه مساء</p><br><iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6045.338358678545!2d5.4166984875639566!3d36.20870597923307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12f315c785301f9b%3A0x215f9f98bfc046a!2sStade%20Ali%20Zidane%20city%20500%20logements!5e0!3m2!1sen!2sdz!4v1754495880403!5m2!1sen!2sdz' width='350' height='350' style='        border-bottom-left-radius: 50%;border-bottom-right-radius: 50%;;,border:10%;'' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>";
+        
+        } else {
+            alert('Incorrect Password');
+        }
+    });
+</script>
+</html>
